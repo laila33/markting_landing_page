@@ -1,0 +1,629 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#firstdiv {
+  width: 100%;
+  background: linear-gradient(180deg, #ceffb8 0%, #91f2cf 59%, #3cffce 100%);
+}
+header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+#NAV_DIV {
+  display: flex;
+  justify-content: space-between;
+  width: 409px;
+  height: 24px;
+  gap: 56px;
+  #a1 {
+    width: 50px;
+    height: 24px;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #222222;
+    text-decoration: none;
+  }
+  #a2 {
+    width: 81px;
+    height: 24px;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #222222;
+    text-decoration: none;
+  }
+  #a3 {
+    width: 66px;
+    height: 24px;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #222222;
+    text-decoration: none;
+  }
+  #a4 {
+    width: 44px;
+    height: 24px;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #222222;
+    text-decoration: none;
+  }
+}
+#buttons {
+  display: flex;
+  align-items: center;
+  width: 275px;
+  height: 44px;
+  gap: 10px;
+  #b1 {
+    width: 106px;
+    height: 44px;
+    border-width: 1px;
+    gap: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    border: 1px solid #000000;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    vertical-align: middle;
+    colo: #000000;
+    font-family: "Manrope", sans-serif;
+  }
+  #b2 {
+    width: 159px;
+    height: 44px;
+    border-width: 1px;
+    gap: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    background: #000000;
+    border: 1px solid #000000;
+  }
+}
+#frame1div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8rem;
+  margin-bottom: 118px;
+}
+#logo {
+  width: 100%;
+  background-color: black;
+  align-items: end;
+  img {
+    width: 1440px;
+    height: 101px;
+    border-bottom-width: 1px;
+  }
+}
+#second_div {
+  width: 100%;
+  height: auto;
+  background: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  #son1 {
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      width: 754.0599975585938px;
+      height: 66px;
+      font-family: FONTSPRING DEMO - Roc Grotesk;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 74px;
+      letter-spacing: -1px;
+      text-align: center;
+      vertical-align: middle;
+      color: #ffffff;
+      margin-bottom: 12px;
+      margin-top: 80px;
+    }
+    p {
+      width: 566.9000244140625px;
+      height: 60px;
+      font-family: Manrope;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0%;
+      text-align: center;
+      vertical-align: middle;
+      color: #84a5aa;
+    }
+  }
+  #frame2 {
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #son2 {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1240px;
+    height: 258px;
+    border-radius: 12px;
+    border-width: 1px;
+    background: linear-gradient(
+      180deg,
+      rgba(28, 232, 171, 0.08) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    border: 1px solid #ffffff26;
+    #div1 {
+      width: 1051px;
+      height: 178px;
+
+      #div2 {
+        display: flex;
+        flex-direction: column;
+        width: 213.4957275390625px;
+        height: 178.39999389648438px;
+        margin-left: 3rem;
+        /* gap: 26px; */
+        img {
+          width: 102px;
+          /* height: 102px; */
+          border-radius: 99px;
+          margin-bottom: 16px;
+        }
+        h1 {
+          /* width: 100px; */
+          /* height: 24px; */
+          font-family: Manrope;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0%;
+          vertical-align: middle;
+          color: #fffcf6;
+          padding-left: 10px;
+        }
+        p {
+          /* width: 213.4957275390625px; */
+          /* height: 22.399999618530273px; */
+          font-family: Manrope;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0%;
+          vertical-align: middle;
+          color: #84a5aa;
+        }
+      }
+    }
+  }
+  #son3 {
+    margin-top: 116px;
+    width: 630px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    h1 {
+      width: 630px;
+      height: 128px;
+      font-family: FONTSPRING DEMO - Roc Grotesk;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 64px;
+      letter-spacing: -1px;
+      text-align: center;
+      vertical-align: middle;
+      color: #ffffff;
+    }
+    p {
+      width: 613.0900268554688px;
+      height: 60px;
+      font-family: Manrope;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0%;
+      text-align: center;
+      vertical-align: middle;
+      color: #84a5aa;
+    }
+  }
+  #son5 {
+    margin-top: 56px;
+    width: 516px;
+    height: 229px;
+    background: #121212;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 100px;
+    h1 {
+      /* width: 512px;
+      height: 78px; */
+      font-family: Inter;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 39px;
+      letter-spacing: -0.3px;
+      vertical-align: middle;
+      color: #fffcf6;
+    }
+    p {
+      width: 516px;
+      height: 135px;
+      font-family: Manrope;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26.99px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+      color: #84a5aa;
+      margin-top: 16px;
+    }
+  }
+  #son6 {
+    margin-top: 235px;
+    width: 1236px;
+    height: 408px;
+    display: flex;
+    img {
+      width: 569px;
+      height: 408px;
+      border-radius: 12px;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: 155px;
+      p {
+        width: 512px;
+        /* height: 78px; */
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 39px;
+        letter-spacing: -0.3px;
+        vertical-align: middle;
+        color: #fffcf6;
+      }
+    }
+  }
+  #son7 {
+    margin-top: 160px;
+    width: 803px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      width: 803px;
+      height: 170px;
+      font-family: FONTSPRING DEMO - Roc Grotesk;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 64px;
+      letter-spacing: -1px;
+      text-align: center;
+      vertical-align: middle;
+      color: #ffffff;
+    }
+    p {
+      width: 744px;
+      height: 30px;
+      font-family: Manrope;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0%;
+      text-align: center;
+      vertical-align: middle;
+      color: #84a5aa;
+    }
+  }
+  #son8 {
+    margin-top: 59px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    .card1 {
+      width: 400px;
+      height: 193px;
+      background: #ffffff;
+      box-shadow: 0px 1px 5px 0px #0000001a;
+      border-radius: 8px;
+      header {
+        width: 400px;
+        height: 46px;
+        background: #ffe090;
+        display: flex;
+        align-self: flex-start;
+        justify-content: flex-start;
+        h1 {
+          width: 286px;
+          height: 22px;
+          font-family: Manrope;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0%;
+          vertical-align: middle;
+          color: #000000;
+          padding-left: 2rem;
+        }
+      }
+      div {
+        width: 400px;
+        height: 148px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+          width: 347px;
+          height: 115px;
+          font-family: Manrope;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          letter-spacing: 0%;
+          vertical-align: middle;
+          color: #000000;
+        }
+      }
+    }
+  }
+  #son8 .card1:nth-child(2) header {
+    background: #cef298;
+  }
+
+  #son8 .card1:nth-child(3) header {
+    background: #aadbe1;
+  }
+}
+#son9 {
+  margin-top: 80px;
+  width: 100%;
+  /* height: auto; */
+  background: linear-gradient(180deg, #ceffb8 0%, #91f2cf 59%, #3cffce 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    margin-top: 80px;
+    width: 501px;
+    height: 64px;
+    font-family: FONTSPRING DEMO - Roc Grotesk;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: center;
+    vertical-align: middle;
+    color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  #div1 {
+    width: 992px;
+    /* height: auto; */
+    border-radius: 20px;
+    box-shadow: 0px 5px 14px 0px #00000033;
+    display: flex;
+
+    #firstdiv {
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      p {
+        width: 564px;
+        /* height: 120px; */
+        font-family: Manrope;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: #000000;
+      }
+      #seconddiv_2 {
+        width: 275px;
+        height: 50px;
+        display: flex;
+        align-self: flex-start;
+        margin-left: 2.8rem;
+        margin-top: 24px;
+        #d2 {
+          width: 213px;
+          height: 44px;
+          display: flex;
+          flex-direction: column;
+          margin-left: 12px;
+          h1 {
+            width: 138.63999938964844px;
+            height: 22.399999618530273px;
+            font-family: Inter;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            color: #172d30;
+          }
+          #p1 {
+            width: 213.4456787109375px;
+            height: 22.399999618530273px;
+            font-family: Manrope;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0%;
+            vertical-align: middle;
+            color: #000000;
+          }
+        }
+      }
+    }
+  }
+  #lastdiv {
+    margin-top: 40px;
+    width: 120px;
+    height: 48px;
+  }
+  #mixdiv {
+    margin-bottom: 80px;
+    margin-top: 80px;
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 17rem;
+  }
+  #iconfree {
+    width: 122px;
+    height: 302px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 9rem;
+  }
+  #sdiv {
+    width: 817px;
+    height: 302;
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 50.92634963989258px;
+      height: 50.92634963989258px;
+    }
+
+    #d3 {
+      width: 817.9500122070312px;
+      height: 206.39999389648438px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      h1 {
+        width: 550px;
+        height: 132px;
+        font-family: FONTSPRING DEMO - Roc Grotesk;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -1px;
+        text-align: center;
+        vertical-align: middle;
+        color: #121212;
+        margin-bottom: 12px;
+      }
+      p {
+        width: 527.5800170898438px;
+        height: 62.400001525878906px;
+        font-family: Manrope;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+        color: #2a2a2a;
+      }
+    }
+    #b {
+      width: 325px;
+      height: 48px;
+      margin-top: 40px;
+    }
+  }
+}
+#lastpart {
+  width: 100%;
+  height: 363px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  #main {
+    width: 1145px;
+    height: 266px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #hero {
+      margin-right: 10rem;
+      width: 1145px;
+      height: 190px;
+      display: flex;
+      justify-content: space-around;
+      #div1,
+      #div2 {
+        h1 {
+          font-family: Manrope;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0%;
+          vertical-align: middle;
+          color: #ffffff;
+          margin-bottom: 1rem;
+        }
+        p {
+          font-family: Manrope;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0%;
+          vertical-align: middle;
+          color: #e7e9e9;
+        }
+      
+      }
+       #icons{
+          margin-top: 3rem;
+        }
+    }
+  }
+}
